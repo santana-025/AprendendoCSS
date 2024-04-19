@@ -1,4 +1,16 @@
-body {
+body{
     background-color: black;
     color: white;
+}
+
+p,h2{
+    color:yellow;
+}
+
+.vermelho{
+    color: red;
+}
+
+#azul{
+    color:blue;
 }
