@@ -1,16 +1,22 @@
-body{
+body {
     background-color: black;
     color: white;
 }
 
-p,h2{
-    color:yellow;
+p,
+h2 {
+    color: yellow;
 }
 
-.vermelho{
+.vermelho {
     color: red;
 }
 
-#azul{
-    color:blue;
+#azul {
+    color: blue;
+}
+
+.fundos {
+    background-color: grey;
+    width: 300px;
 }

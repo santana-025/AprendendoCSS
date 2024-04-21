@@ -87,3 +87,23 @@ Colour picker > painel de cores no google
 color:nomedacor	:	RED
       HEX		:   #ff0000
       RGB		:   255, 0, 0
+
+	  Backgroud no CSS
+
+backgroud-color = cor
+backgroud-image = imagem
+backgroud-size = tem 2 
+contain = não se ajusta			 
+backgroud-repete = norepet
+				   repeat-x
+				   repeat-y 
+couver  = se ajusta
+backgroud-position = center,top,right,left,baixo
+
+atalho 
+
+backgroud: cor url("pasta/arquivo") no-repeat center ; 
+
+(Somente o size que teria que colocar)
+
+backgoud: url("pasta/arquivo")
