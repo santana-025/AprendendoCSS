@@ -5,7 +5,19 @@ p {
     margin-right: 20px;
 }
 
-.diferente {
-    right: 500px;
-    background-color: brown;
+.botao {
+    margin: 20%;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    background-color: rgb(243, 215, 2);
+    color: white;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: chartreuse;
+    color: black;
 }
