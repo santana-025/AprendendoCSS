@@ -107,3 +107,37 @@ backgroud: cor url("pasta/arquivo") no-repeat center ;
 (Somente o size que teria que colocar)
 
 backgoud: url("pasta/arquivo")
+
+
+		Bordas 
+
+no css 	     3 parametros
+border: tamanho em px tipo cor 
+ex:
+border: 5px solid black ;
+
+tipos de bordas :
+
+solid = solida
+dotted = pontilhada
+deshed = traçejada
+double = dupla
+groove = 3d
+inset = por dentro 
+outset = por forar
+ridge = 
+hiden = oculta 
+none = nenhuma
+
+border-top 
+border-left
+border-right
+border-bottom
+
+	arrendondado
+border = 5px solide black
+border-radius = % ou px
+
+
+
+

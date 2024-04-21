@@ -1,5 +1,12 @@
 h1 {
-    color: red;
+    color: white;
+    border-top: 7px solid red;
+    border-left: 7px solid green;
+    border-right: 7px solid yellow;
+    border-bottom: 7px solid blue;
+    border-radius: 30%;
+    background-color: black;
+    text-align: center;
 }
 
 .cor-solida {
