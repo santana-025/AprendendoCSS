@@ -23,7 +23,7 @@ Na Abertuda da tag, sempre se ultiliza ; para separar as propriedades do css. P�
 Quando damos instruções para todas as tag que quisermos Porem so funciona na mesma pagina. abre uma tag style antes do fechamento do head e dentro passa as propriedades do css 
 
 <style>
-	h1 {color:Blue ; font-size 88px;}
+	h1 {color:Blue ; font-size:88px;}
 </style>
 </head>
  

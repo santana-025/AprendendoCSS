@@ -1,0 +1,22 @@
+h1 {
+    color: red;
+}
+
+.cor-solida {
+    height: 300px;
+    background-color: aqua;
+}
+
+.image {
+    height: 500px;
+    background-image: url(../img/Fundo.png);
+    background-size: contain;
+    background-position: unset;
+    background-repeat: no-repeat;
+}
+
+#nova {
+    height: 500px;
+    background: gray no-repeat left url(../img/Fundo.png);
+    background-size: cover;
+}
