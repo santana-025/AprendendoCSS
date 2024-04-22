@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    direction: rtl;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+p {
+    direction: ltr;
+    text-indent: 60px;
+    letter-spacing: -1px;
+    line-height: 0.8;
+    word-spacing: 6px;
+
+
+
+
+}
