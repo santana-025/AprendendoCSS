@@ -17,5 +17,27 @@ p {
     letter-spacing: -1px;
     line-height: 0.8;
     word-spacing: 6px;
+}
 
+.azul {
+    background-color: blue;
+    width: 33%;
+    height: 550px;
+    display: inline-block;
+}
+
+.vermelho {
+    background-color: rgb(255, 0, 0);
+    width: 33%;
+    height: 550px;
+    display: inline-block;
+}
+
+.vermelho:hover {}
+
+.verde {
+    background-color: green;
+    width: 33%;
+    height: 550px;
+    display: inline-block;
 }
