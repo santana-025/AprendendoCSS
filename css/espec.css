@@ -1,0 +1,11 @@
+#id {
+    background-color: blue;
+}
+
+.class {
+    background-color: red;
+}
+
+h1 {
+    background-color: green !important;
+}
