@@ -4,3 +4,17 @@
     width: 400px;
     background-image: linear-gradient(blue, white);
 }
+
+.gradiente {
+    background-color: rgb(17, 17, 35);
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(30deg, rgb(245, 245, 245), rgb(234, 255, 0));
+}
+
+.gradienti {
+    background-color: blue;
+    height: 400px;
+    width: 400px;
+    background-image: radial-gradient(rgb(255, 0, 0) 50%, rgb(255, 255, 255) 30%);
+}
