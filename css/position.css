@@ -8,6 +8,10 @@
 
 }
 
+body {
+    overflow-y: hidden;
+}
+
 .div01 {
     background-color: rgb(192, 0, 250);
     display: inline-block;
