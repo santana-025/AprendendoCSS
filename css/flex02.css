@@ -96,12 +96,13 @@ section {
     background-color: #00dffc;
     border: 2px solid black;
     display: flex;
+    font-family: "Rowdies", sans-serif;
     flex-direction: column;
     width: 250px;
     justify-content: center;
     align-items: center;
     margin: 50px;
-    box-shadow: -webkit-box-shadow: 17px 18px 17px 6px rgba(0, 0, 0, 0.68);
+    -webkit-box-shadow: 17px 18px 17px 6px rgba(0, 0, 0, 0.68);
     -moz-box-shadow: 17px 18px 17px 6px rgba(0, 0, 0, 0.68);
     box-shadow: 17px 18px 17px 6px rgba(0, 0, 0, 0.68);
     ;
@@ -116,4 +117,6 @@ section {
 
 .card p {
     margin: 20px;
+    font-family: "Rowdies", sans-serif;
+
 }
