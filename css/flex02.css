@@ -1,5 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.cabecario {
+    background-color: #00dffc;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecario h1 {
+    font-size: 90px;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav {
+    background-color: #343838;
+}
+
+.contpai {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contpai li {
+    list-style: none;
+    padding: 2px;
+}
+
+.contpai li a {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    padding: 2px;
+}
+
+.contpai li a:hover {
+    background-color: #343838;
+    color: #00dffc;
+    padding: 2px;
+
+
+}
+
+.downmenu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #343838;
+}
+
+.downmenu ul {
+    display: flex;
+    position: absolute;
+    background-color: #343838;
+}
+
+.down {
+    display: none;
+}
+
+.drop:hover .down {
+    display: flex;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .contpai {
+        flex-direction: column;
+    }
+}
+
+section {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.card {
+    background-color: #00dffc;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    box-shadow: -webkit-box-shadow: 17px 18px 17px 6px rgba(0, 0, 0, 0.68);
+    -moz-box-shadow: 17px 18px 17px 6px rgba(0, 0, 0, 0.68);
+    box-shadow: 17px 18px 17px 6px rgba(0, 0, 0, 0.68);
+    ;
+
+}
+
+.card img {
+    padding: 20px;
+    width: 250px;
+    height: 200px;
+}
+
+.card p {
+    margin: 20px;
 }
