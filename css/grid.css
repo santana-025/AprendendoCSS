@@ -1,0 +1,47 @@
+.pai {
+    border: 5px solid rgb(242, 2, 2);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 40% auto;
+    row-gap: 5px;
+    column-gap: 2px;
+
+}
+
+.filho {
+    border: 2px solid black;
+}
+
+.pai2 {
+    border: 5px solid rgb(242, 2, 2);
+    height: 54vh;
+    display: grid;
+    grid-template-areas: 1 3 1;
+
+}
+
+.pai2 header {
+    align-self: start;
+    justify-self: auto;
+    grid-area: header;
+}
+
+section {
+    justify-self: auto;
+    grid-area: section;
+}
+
+div {
+    justify-self: auto;
+    grid-area: div;
+}
+
+nav {
+    justify-self: auto;
+    grid-area: nav;
+}
+
+footer {
+    justify-self: auto;
+    grid-area: footer;
+}
