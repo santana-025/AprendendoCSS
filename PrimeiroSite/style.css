@@ -21,7 +21,7 @@ nav {
 }
 
 .logo {
-    text-align: center;
+    text-align: left;
     flex: 20%;
 }
 
@@ -64,7 +64,7 @@ nav {
 }
 
 header {
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 5%;
     height: auto;
     display: flex;
@@ -118,4 +118,36 @@ header {
 
 .img img {
     max-width: 90%;
+}
+
+section {
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    height: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-around;
+    align-items: start;
+
+}
+
+section h1 {
+    font-family: "Lobster", sans-serif;
+    color: #0F6CA6;
+    font-size: 35px;
+    margin-top: 5%;
+    width: 100%;
+    margin-bottom: 5%;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+
+#cards {
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 5%;
 }
