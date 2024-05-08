@@ -1,0 +1,80 @@
+.Naovis:link {
+    color: rgb(255, 13, 0)
+}
+
+.Visitado:visited {
+    color: blue;
+}
+
+.ativado:active {
+    color: rgb(17, 255, 0);
+}
+
+.foco:focus {
+    background-color: aqua;
+}
+
+.focoo:focus {
+    background-color: rgb(60, 0, 255);
+}
+
+.foco:enabled {
+    background-color: rgb(204, 255, 0);
+}
+
+.asas:checked {
+    height: 200px;
+    width: 200px;
+}
+
+p:not(.meio) {
+    color: blue;
+    font-size: 32px;
+}
+
+ul li:nth-child(5) {
+    color: red
+}
+
+ul li:nth-child(even) {
+    background-color: black;
+    color: white;
+}
+
+ul li:nth-child(odd) {
+    background-color: white;
+    color: black;
+}
+
+ul li:nth-child(5n) {
+    background-color: rgb(255, 0, 0);
+    color: rgb(60, 246, 4);
+}
+
+ul li:nth-child(2n+5) {
+    background-color: rgba(255, 230, 0, 0.932);
+    color: rgb(34, 0, 255);
+}
+
+.texte::after {
+    content: "-";
+}
+
+.textwe::before {
+    content: "-";
+}
+
+p::first-letter {
+    display: block;
+    padding: 20px 30px;
+    font-size: 32px;
+}
+
+p::first-line {
+    color: yellow;
+}
+
+.fla:placeholder {
+    text-transform: "Flamengo ta uma merda";
+    color: red;
+}
